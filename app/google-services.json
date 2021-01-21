@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146809336040",
+    "project_id": "swiggy-f2735",
+    "storage_bucket": "swiggy-f2735.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146809336040:android:d2cf70510fd788ede9595d",
+        "android_client_info": {
+          "package_name": "com.example.swiggy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146809336040-5i3u1lgqjf6v271bqn9mimflt85ih645.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQqB1Q4TWesquUe684dXSgn9qvlPn3mls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146809336040-5i3u1lgqjf6v271bqn9mimflt85ih645.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
