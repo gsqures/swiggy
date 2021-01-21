@@ -2,21 +2,49 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".log_in_page">
+    tools:context=".log_in_page"
+    android:weightSum="3">
+
+
     <com.synnapps.carouselview.CarouselView
         android:id="@+id/carouselView"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
         app:fillColor="#FFFFFFFF"
         app:pageColor="#00000000"
         app:radius="6dp"
         app:slideInterval="3000"
         app:strokeColor="#FF777777"
-        app:strokeWidth="1dp"
-        tools:ignore="MissingClass" />
+        app:strokeWidth="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are You ready to Order from Top Restaurants ?"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have A account ? Login"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textSize="15dp"/>
+    </LinearLayout>
 
 
 </LinearLayout>
