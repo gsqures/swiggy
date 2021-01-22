@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Swiggy">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".verify_details"></activity>
         <activity android:name=".OpeningPageBeforeLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

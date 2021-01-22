@@ -10,14 +10,10 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextPaint;
 import android.text.method.LinkMovementMethod;
-import android.text.method.MovementMethod;
-import android.text.style.CharacterStyle;
 import android.text.style.ClickableSpan;
-import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ImageListener;
@@ -41,7 +37,7 @@ public class OpeningPageBeforeLogin extends AppCompatActivity {
         ClickableSpan clickableSpan = new ClickableSpan() {
             @Override
             public void onClick(@NonNull View widget) {
-                startActivity(new Intent(OpeningPageBeforeLogin.this,LoginActivity.class));
+                startActivity(new Intent(OpeningPageBeforeLogin.this, verify_details.class));
                 //Toast.makeText(OpeningPageBeforeLogin.this, "Click on span", Toast.LENGTH_SHORT).show();
             }
 
