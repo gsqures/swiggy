@@ -4,14 +4,7 @@
     android:fromYDelta="100%"
     android:interpolator="@android:anim/accelerate_interpolator"
     android:toYDelta="0">
+
 </translate>
-<translate
-android:duration="@android:integer/config_mediumAnimTime"
-android:fromYDelta="0%p"
-android:interpolator="@android:anim/accelerate_interpolator"
-android:toYDelta="100%p">
-</translate>
-<style name="DialogAnimation">
-<item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
-<item name="android:windowExitAnimation">@anim/slide_out_down</item>
-</style>
+
+
