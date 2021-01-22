@@ -121,6 +121,7 @@ public class OpeningPageBeforeLogin extends AppCompatActivity {
                 Intent intn = new Intent(OpeningPageBeforeLogin.this,Verify_details.class);
                 intn.putExtra("phonenumber",phn.getText().toString());
                 startActivity(intn);
+                finish();
             }
         });
 
@@ -144,9 +145,11 @@ public class OpeningPageBeforeLogin extends AppCompatActivity {
                 if(stf.length()==10){
                     submitph.setText("Continue");
                     submitph.setEnabled(true);
+                    submitph.setBackgroundColor(Color.parseColor("#F66E42"));
                 }else{
                     submitph.setText("Enter Phone Number");
                     submitph.setEnabled(false);
+                    submitph.setBackgroundColor(Color.parseColor("#F8AB92"));
                 }
             }
         });

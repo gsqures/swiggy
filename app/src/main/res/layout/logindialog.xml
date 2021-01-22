@@ -64,7 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ENTER PHONE NUMBER"
-        android:backgroundTint="#FB6D40"
+        android:backgroundTint="#F8AB92"
         android:textColor="#FFF"
         android:layout_margin="15dp"
         android:enabled="false"/>

@@ -53,11 +53,53 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:backgroundTint="@color/black">
-            
+            <com.chaos.view.PinView
+                android:id="@+id/pinview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/PinWidget.PinView"
+                android:layout_gravity="center"
+                android:inputType="number"
+                app:itemCount="6"
+                app:itemHeight="40dp"
+                app:itemWidth="40dp"
+                app:itemRadius="5dp"
+                android:itemBackground="#FBDFD7"
+                android:layout_marginTop="40dp"/>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp"
+                android:layout_gravity="right">
 
+                <TextView
+                    android:id="@+id/counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:00"
+                    android:layout_marginRight="10dp" />
 
+                <TextView
+                    android:id="@+id/resendotp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resend Otp"
+                    android:layout_gravity="right"
+                    android:textColor="#304DF3"
+                    android:enabled="false"/>
+            </LinearLayout>
 
+            <Button
+                android:id="@+id/otpsubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENTER OTP"
+                android:backgroundTint="#F8AB92"
+                android:textColor="#FFF"
+                android:layout_margin="10dp"
+                android:enabled="false"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
