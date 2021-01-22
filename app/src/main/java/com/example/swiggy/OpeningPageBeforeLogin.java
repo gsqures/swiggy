@@ -118,7 +118,7 @@ public class OpeningPageBeforeLogin extends AppCompatActivity {
         submitph.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intn = new Intent(OpeningPageBeforeLogin.this,verify_details.class);
+                Intent intn = new Intent(OpeningPageBeforeLogin.this,Verify_details.class);
                 intn.putExtra("phonenumber",phn.getText().toString());
                 startActivity(intn);
             }

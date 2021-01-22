@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFF"
-    tools:context=".verify_details">
+    tools:context=".Verify_details">
 
 
     <LinearLayout
@@ -51,25 +51,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:backgroundTint="@color/black">
+            
 
-            <com.chaos.view.PinView
-                android:id="@+id/pin_view"
-                style="@style/PinWidget.PinView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:cursorVisible="true"
-                android:inputType="number"
-                android:itemBackground="#65EAEAEA"
-                app:hideLineWhenFilled="true"
-                app:itemCount="6"
-                app:itemHeight="50dp"
-                app:itemRadius="5dp"
-                app:itemWidth="50dp"
 
-                />
 
 
         </LinearLayout>

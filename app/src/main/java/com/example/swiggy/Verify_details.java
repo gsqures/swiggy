@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class verify_details extends AppCompatActivity {
+public class Verify_details extends AppCompatActivity {
     TextView phnno;
 
     @Override
