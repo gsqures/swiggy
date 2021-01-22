@@ -87,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:text="Resend Otp"
                     android:layout_gravity="right"
-                    android:textColor="#304DF3"
+                    android:textColor="#8899F6"
                     android:enabled="false"/>
             </LinearLayout>
 

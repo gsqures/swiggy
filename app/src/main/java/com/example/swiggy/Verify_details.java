@@ -68,6 +68,7 @@ public class Verify_details extends AppCompatActivity {
                         .build();
         PhoneAuthProvider.verifyPhoneNumber(options);
         resendtv.setEnabled(false);
+        resendtv.setTextColor(Color.parseColor("#8899F6"));
         counterstartfun();
         Toast.makeText(getApplicationContext(), "OTP sent successfully", Toast.LENGTH_LONG).show();
     }
@@ -88,6 +89,7 @@ public class Verify_details extends AppCompatActivity {
             @Override
             public void onFinish() {
                 resendtv.setEnabled(true);
+                resendtv.setTextColor(Color.parseColor("#0421BD"));
                 countertv.setText("Didn't receive the OTP ?");
             }
         }.start();
