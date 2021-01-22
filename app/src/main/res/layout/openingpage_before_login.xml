@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".log_in_page"
+    tools:context=".OpeningPageBeforeLogin"
     android:weightSum="3">
 
 
@@ -14,13 +14,14 @@
         android:id="@+id/carouselView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.5"
+        android:layout_weight="0.4"
         app:fillColor="#FFFFFFFF"
         app:pageColor="#00000000"
-        app:radius="6dp"
+        app:radius="3dp"
         app:slideInterval="3000"
-        app:strokeColor="#FF777777"
-        app:strokeWidth="1dp"/>
+        app:strokeColor="#FF5722"
+        app:strokeWidth="1dp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,36 +38,14 @@
             android:layout_margin="10dp"
             android:textSize="15dp"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:weightSum="10"
             android:layout_margin="10dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_weight="8"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp"
-                android:text="Have an account ? "
-                android:gravity="end"
-
-                android:textSize="15dp" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="2"
-                android:backgroundTint="#FFF"
-                android:gravity="start"
-                android:stateListAnimator="@null"
-                android:text="Login"
-                android:textAllCaps="false"
-                android:textColor="#203FEA" />
-        </LinearLayout>
+            android:text="Have an account ? Login "
+            android:textSize="15dp"
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 
