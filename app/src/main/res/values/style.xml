@@ -4,4 +4,9 @@
         <item name="android:windowEnterAnimation">@anim/slide_updialog</item>
         <item name="android:windowExitAnimation">@anim/slide_downdialog</item>
     </style>
+
+    <style name="ThemeDialog" parent="Theme.Swiggy">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
 </resources>
