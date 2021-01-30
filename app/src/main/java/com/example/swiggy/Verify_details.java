@@ -23,7 +23,6 @@ import com.google.firebase.FirebaseTooManyRequestsException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthOptions;
 import com.google.firebase.auth.PhoneAuthProvider;
@@ -194,7 +193,7 @@ public class Verify_details extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("Successful Login", "signInWithCredential:success");
 
-                            startActivity(new Intent(Verify_details.this,MainActivity.class));
+                            startActivity(new Intent(Verify_details.this, Home.class));
                             finish();
                             Toast.makeText(getApplicationContext(), "Login Successfully", Toast.LENGTH_LONG).show();
                             // ...

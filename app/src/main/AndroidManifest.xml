@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Home" />
         <activity android:name=".Verify_details" />
         <activity android:name=".OpeningPageBeforeLogin"></activity>
     </application>
