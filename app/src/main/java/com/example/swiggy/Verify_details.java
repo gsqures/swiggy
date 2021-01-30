@@ -193,7 +193,7 @@ public class Verify_details extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d("Successful Login", "signInWithCredential:success");
 
-                            startActivity(new Intent(Verify_details.this, Home.class));
+                            startActivity(new Intent(Verify_details.this, MainActivity.class));
                             finish();
                             Toast.makeText(getApplicationContext(), "Login Successfully", Toast.LENGTH_LONG).show();
                             // ...

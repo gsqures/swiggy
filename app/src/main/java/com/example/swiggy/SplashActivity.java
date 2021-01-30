@@ -29,7 +29,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 if(user!=null){
-                  startActivity(new Intent(SplashActivity.this, Home.class));
+                  startActivity(new Intent(SplashActivity.this, MainActivity.class));
                   finish();
                 }else{
                     startActivity(new Intent(SplashActivity.this,OpeningPageBeforeLogin.class));

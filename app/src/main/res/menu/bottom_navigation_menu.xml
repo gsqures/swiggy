@@ -19,5 +19,5 @@
     <item android:title="Profile"
         android:icon="@drawable/prf"
         app:showAsAction="withText"
-        android:id="@+id/profile"/>
+        android:id="@+id/profilemenu"/>
 </menu>
