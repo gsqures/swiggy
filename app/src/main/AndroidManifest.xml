@@ -9,15 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Swiggy">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".Verify_details" />
-        <activity android:name=".OpeningPageBeforeLogin">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Verify_details" />
+        <activity android:name=".OpeningPageBeforeLogin"></activity>
     </application>
 
 </manifest>
