@@ -13,7 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -54,7 +54,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="horizontal" >
+                        android:orientation="horizontal">
 
                         <ImageButton
                             android:id="@+id/imageButton6"
@@ -147,9 +147,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <com.synnapps.carouselview.CirclePageIndicator
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
 
             </LinearLayout>
 
@@ -177,7 +178,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal" >
+                        android:orientation="horizontal">
 
                         <ImageButton
                             android:id="@+id/imageButton14"
@@ -228,7 +229,7 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal" >
+                        android:orientation="horizontal">
 
                         <ImageButton
                             android:id="@+id/imageButton15"
@@ -255,4 +256,15 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:menu="@menu/bottom_navigation_menu"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/default_circle_indicator_stroke_color"
+        app:itemTextColor="@color/bottomnavcolor"
+        app:itemIconTint="@color/bottomnavcolor"
+        app:labelVisibilityMode="labeled"/>
+
 </RelativeLayout>
